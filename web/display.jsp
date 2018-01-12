@@ -5,12 +5,8 @@
 String u2 = request.getParameter("u2").toString();
  String u3 = request.getParameter("u3").toString();
  String chart = request.getParameter("chart").toString();
-     //out.println(request.getParameter("u1"));
-// String u1 = request.getAttribute("x").toString();
-// String u2 = request.getAttribute("y").toString();
-// String u3 = request.getAttribute("z").toString();
-// 
- //out.println(u1+" "+u2+" "+u3);
+    
+    
   float a=Float.parseFloat(u1);
  float b=Float.parseFloat(u2);
  float c=Float.parseFloat(u3);
